@@ -1,0 +1,24 @@
+.collapsible button,
+.collapsible button:hover {
+  all: unset;
+  flex-grow: 1;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.collapsible {
+  border: 2px solid blue;
+  margin-bottom: 2em;
+  display: flex;
+  flex-flow: column;
+}
+
+.collapsible[data-collapsed='true'] .collapsible-content {
+  display: none;
+}
+
+.collapsible-content {
+  padding: 1em;
+}
