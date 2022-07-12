@@ -1,12 +1,14 @@
 .app {
+  margin: 2em;
   max-width: 1400px;
-  margin: 5em auto;
-}
-
-.title {
-  width: 20em;
 }
 
 .content {
   margin-top: 5em;
+}
+
+@media screen and (min-width: 1400px) {
+  .app {
+    margin: 5em auto;
+  }
 }

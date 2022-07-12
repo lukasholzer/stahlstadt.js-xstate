@@ -28,7 +28,13 @@ h5 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 1.8em;
+}
+
+@media screen and (min-width: 1400px) {
+  h2 {
+    font-size: 2.5em;
+  }
 }
 
 a {
