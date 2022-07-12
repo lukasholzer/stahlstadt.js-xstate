@@ -14,3 +14,4 @@ If you want to run the tests simply run `npm run test`
 ### All links:
 
 - [Original Paper from David Harel in 1986](https://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)
+- [XState Visualizer](https://stately.ai/viz)
